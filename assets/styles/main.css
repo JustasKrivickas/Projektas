@@ -1,0 +1,30 @@
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
+.c1 {
+    background-color: #990033;
+    color: white;
+    font-family: verdana;
+    font-size: 30px;
+    text-align: center;
+}
+.c2 {
+    background-color: #00ffff;
+}
+.c3 {
+    background-color: #ccffcc;
+}
+.c4 {
+    background-color: white;
+}
+.c5 {
+    background-color: #ffcc66;
+}
+.c6 {
+    background-color: #ff0066;
+}
+.c7 {
+    background-color: #3366ff;
+}
