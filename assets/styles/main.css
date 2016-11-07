@@ -28,8 +28,13 @@ body, html{
 .c7 {
     background-color: #3366ff;
 }
+
 nav img {
     width: 55px;
     height: 55px;
     float: left;
+
+footer{
+  background-color: #0000cc;
+
 }
