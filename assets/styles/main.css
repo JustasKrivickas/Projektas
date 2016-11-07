@@ -47,11 +47,33 @@ h1{
 
 
 nav img {
-    width: 55px;
-    height: 55px;
+    width: 120px;
+    height: 60px;
     float: left;
+  }
 
 footer{
   background-color: #0000cc;
 
 }
+nav{
+ font-size: 10px;
+}
+
+header nav ul li {
+    list-style-type: none;
+    border: none;
+    padding: 15px;
+    display: inline-block;
+    left: 100px;
+    color: white;
+    font-family: verdana;
+    }
+}
+header nav ul {
+    float: right;
+
+  }
+  .line:hover{
+  background-color:#990080
+    }
