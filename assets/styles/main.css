@@ -1,6 +1,7 @@
 body, html{
   margin: 0;
   padding: 0;
+
 }
 
 .c1 {
@@ -25,6 +26,8 @@ h1{
   .categories_img{
     max-width: 100%;
     margin: auto;
+
+
   }
    .caption{
      display: block;
@@ -51,6 +54,8 @@ h1{
 }
 .c4 {
     background-color: white;
+    text-align: center;
+    color:#003366;
 }
 .c5 {
     background-color: #ffcc66;
