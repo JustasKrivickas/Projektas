@@ -34,7 +34,7 @@ h1{
     max-width: 20%;
     display: inline-block;
     width: 100px;
-  
+
     margin: 10px;
 
 
@@ -65,15 +65,6 @@ h1{
     color:#003366;
 }
 .prog_bar{
-  jQuery("#container").radialPieChart("init", {
-font-size: 13px;
-fill: 20px;
-data: [
-{color: "#2DB1E4", perc: 33},
-{color: "#9CCA13", perc: 33},
-{color: "#A4075E", perc: 33}
-]
-});
 
 }
 .c5 {
