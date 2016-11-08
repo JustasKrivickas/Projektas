@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <title>Books for children</title>
     <link rel="stylesheet" type="text/css" href="assets\styles\main.css">
+
     <meta name="viewport" content="content">
 </head>
 <!-- HEAD END -->
@@ -41,19 +42,25 @@ Hello there! We are publishing books for kids and would love to hear from you if
     <div class="c2">
       <h1>Categories</h1>
       <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lacinia mauris orci, vel eleifend nunc tempus vitae. Integer in volutpat sapien. Etiam fermentum mattis massa a fermentum.</h3>
-<div class="categories_img">
+
+  <div class="icons">
       <img class="img_c2" src="assets/images/textbooks.jpg" alt="textbooks">
-      <span class="caption">Textbooks</span>
+      <p class="caption">Textbooks</p>
+    </div>
+    <div class="icons">
       <img class="img_c2" src="assets/images/coloring_book.jpg" alt="coloring_book">
       <span class="caption">Colouring books</span>
+      </div>
+      <div class="icons">
       <img class="img_c2" src="assets/images/fairy_tales.jpg" alt="fairy_tales">
       <span class="caption">Fairy tales</span>
+      </div>
+      <div class="icons">
       <img class="img_c2" src="assets/images/adolescents.jpg" alt="adolescents">
       <span class="caption">Books for young readers</span>
+      </div>
 </div>
-
-    </div>
-    <div class="c3">
+      <div class="c3">
         Mauris hendrerit dolor tellus, eu tristique nulla blandit vitae. Maecenas porta massa pharetra velit tristique convallis. Sed imperdiet mauris massa, vitae sagittis eros pulvinar eu. Ut nulla tortor, pulvinar auctor enim sit amet, accumsan aliquet ipsum.
         Integer lorem velit, dignissim sed malesuada a, finibus at nibh. Maecenas id neque consectetur, lacinia leo eu, congue urna. Proin nisi mi, pulvinar eu enim vitae, mollis euismod justo. Quisque interdum convallis molestie. Praesent lobortis nisl
         quis tincidunt sagittis. Curabitur in metus aliquet, aliquam nulla eu, gravida odio. Phasellus pellentesque volutpat dolor, egestas mollis est mattis vitae. Sed sed turpis at tortor facilisis egestas non at tortor. Aliquam fringilla pharetra enim,
@@ -62,7 +69,8 @@ Hello there! We are publishing books for kids and would love to hear from you if
     <div class="c4">
         <p>Nullam mollis sem ac nulla ultrices tempus. Aliquam sit amet orci malesuada, vestibulum velit ut, molestie lacus. <br> Phasellus
         quis nisi faucibus, iaculis diam ac, porta dui. Nam molestie massa et semper fermentum. <br> Pellentesque faucibus ligula ac nulla vestibulum, id hendrerit dolor laoreet. </p>
-
+<div id="prog_bar">
+</div>
     </div>
     <div class="c5">
         Suspendisse augue leo, tincidunt facilisis ex eu, vestibulum tincidunt est. Aliquam eget ullamcorper nibh, a faucibus tortor. Ut id blandit justo, convallis luctus massa. Ut pharetra, quam at fringilla tempor, magna dui tincidunt ante, et elementum purus
@@ -78,6 +86,9 @@ Hello there! We are publishing books for kids and would love to hear from you if
         Sed bibendum cursus massa id suscipit. Ut vitae orci enim. Nullam tempor semper ultrices. Curabitur quis enim lacus. Aliquam nunc mauris, posuere a ornare laoreet, interdum ut erat. Ut maximus condimentum velit, ac rhoncus arcu ultrices eget. Cras nec
         semper turpis. Praesent rhoncus est eu dui ornare tristique. Donec eget mauris dictum, venenatis justo sed, lobortis ex. Pellentesque eu cursus lacus. Aenean sed nisi ac nisl pellentesque aliquam eget eget arcu.
     </div>
+
+
+
     <footer>
         <ul>
             <li>Facebook</li>
@@ -89,6 +100,29 @@ Hello there! We are publishing books for kids and would love to hear from you if
             <li>GitHub</li>
         </ul>
     </footer>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+      <script src="assets\jquery\radial-progress-bar.js"></script>
+    <script>
+    jQuery("#prog_bar").radialPieChart("init", {
+      'font-size': 13,
+
+      'fill': 20,
+
+      'data': [
+
+        {'color': "#2DB1E4", 'perc': 33},
+
+        {'color': "#9CCA13", 'perc': 33},
+
+        {'color': "#A4075E", 'perc': 33}
+
+      ]
+
+    });
+
+
+    </script>
+
 </body>
 
 </html>
