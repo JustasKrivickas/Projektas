@@ -12,21 +12,38 @@ body, html{
 }
 .c2 {
     background-color: #00ffff;
+    color:#003300;
+    text-align: center;
     }
 h1{
 
-    color: white;
+    color: #003300;
     font-family: verdana;
     font-size: 20px;
     text-align: center;
   }
+  .categories_img{
+    max-width: 100%;
+    margin: auto;
+  }
+   .caption{
+     display: block;
+     font-size: 15px;
+    font-family: verdana;
+    text-align: center;
+    font-variant:small-caps;
+    font-weight:bolder;
+    color: #003300
+   }
+
     .img_c2 {
       border-radius: 10px;
       border: 10px solid #ddd;
       padding: 5px;
       max-width: 20%;
-      width: 100%;
-      height: auto;
+      width: 200px;
+      height: 150px;
+      padding: 0 6px;
 }
     }
 .c3 {
