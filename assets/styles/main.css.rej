@@ -1,0 +1,12 @@
+diff a/assets/styles/main.css b/assets/styles/main.css	(rejected hunks)
+@@ -53,10 +53,6 @@
+       border-radius: 10px;
+       border: 10px solid #ddd;
+       padding: 5px;
+-      max-width: 20%;
+-      width: 200px;
+-      height: 150px;
+-      padding: 0 6px;
+             width: 100%;
+ }
+ 
