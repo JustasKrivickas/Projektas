@@ -43,7 +43,15 @@ h1{
     font-weight:bolder;
     color: #003300
    }
-
+   .caption2{
+     display: block;
+     font-size: 15px;
+    font-family: verdana;
+    text-align: center;
+    font-variant:small-caps;
+    font-weight:bolder;
+    color: white;
+   }
     .img_c2 {
       border-radius: 10px;
       border: 10px solid #ddd;
@@ -53,9 +61,14 @@ h1{
       height: 150px;
       padding: 0 6px;
 }
-    }
+
 .c3 {
-    background-color: #ccffcc;
+  font-family: verdana;
+  overflow: hidden;
+    background-color:#0040ff;
+    color: white;
+    text-align: center;
+
 }
 .c4 {
     background-color: white;
@@ -63,6 +76,10 @@ h1{
     color:#003366;
 }
 .c5 {
+  font-family: verdana;
+  font-style: bold;
+  overflow: hidden;
+    text-align: center;
     background-color: #ffcc66;
 }
 .c6 {
@@ -124,4 +141,23 @@ text-decoration: none;
 }
 .b1:hover{
   background-color: #6c6c93;
+}
+
+.comms{
+  height: 100px;
+  width: 70px;
+}
+.prod{
+  height: 100px;
+  width: 100px;
+}
+.ceo{
+  height: 100px;
+  width: 100px;
+}
+.squad{
+  display: inline-block;
+      text-align: center;
+      margin: 30px;
+      padding: 20px;
 }
