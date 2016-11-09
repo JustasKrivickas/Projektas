@@ -49,15 +49,15 @@ Hello there! We are publishing books for kids and would love to hear from you if
     </div>
     <div class="icons">
       <img class="img_c2" src="assets/images/coloring_book.jpg" alt="coloring_book">
-      <span class="caption">Colouring books</span>
+      <p class="caption">Colouring books</p>
       </div>
       <div class="icons">
       <img class="img_c2" src="assets/images/fairy_tales.jpg" alt="fairy_tales">
-      <span class="caption">Fairy tales</span>
+      <p class="caption">Fairy tales</p>
       </div>
       <div class="icons">
       <img class="img_c2" src="assets/images/adolescents.jpg" alt="adolescents">
-      <span class="caption">Books for young readers</span>
+      <p class="caption">For young readers</p>
       </div>
 </div>
 
@@ -83,7 +83,13 @@ Hello there! We are publishing books for kids and would love to hear from you if
     <div class="c4">
         <p>Nullam mollis sem ac nulla ultrices tempus. Aliquam sit amet orci malesuada, vestibulum velit ut, molestie lacus. <br> Phasellus
         quis nisi faucibus, iaculis diam ac, porta dui. Nam molestie massa et semper fermentum. <br> Pellentesque faucibus ligula ac nulla vestibulum, id hendrerit dolor laoreet. </p>
-<div id="prog_bar">
+<div class="prog_bars">
+<div id="prog_bar1">
+</div>
+<div id="prog_bar2">
+</div>
+<div id="prog_bar3">
+</div>
 </div>
     </div>
     <div class="c5">
@@ -115,23 +121,33 @@ OUR PRODUCTION
     <script src="http://code.jquery.com/jquery.min.js"></script>
       <script src="assets\jquery\radial-progress-bar.js"></script>
     <script>
-    jQuery("#prog_bar").radialPieChart("init", {
+    jQuery("#prog_bar1").radialPieChart("init", {
       'font-size': 13,
-
       'fill': 20,
-
       'data': [
-
         {'color': "#2DB1E4", 'perc': 33},
-
         {'color': "#9CCA13", 'perc': 33},
-
         {'color': "#A4075E", 'perc': 33}
-
       ]
-
     });
-
+    jQuery("#prog_bar2").radialPieChart("init", {
+      'font-size': 13,
+      'fill': 20,
+      'data': [
+        {'color': "#2DB1E4", 'perc': 10},
+        {'color': "#9CCA13", 'perc': 30},
+        {'color': "#A4075E", 'perc': 60}
+      ]
+    });
+    jQuery("#prog_bar3").radialPieChart("init", {
+      'font-size': 13,
+      'fill': 20,
+      'data': [
+        {'color': "#2DB1E4", 'perc': 60},
+        {'color': "#9CCA13", 'perc': 45},
+        {'color': "#A4075E", 'perc': 90}
+      ]
+    });
 
     </script>
 
