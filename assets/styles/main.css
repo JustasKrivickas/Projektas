@@ -1,4 +1,4 @@
-body, html {
+    body, html {
     margin: 0;
     padding: 0;
 }
@@ -8,7 +8,7 @@ body, html {
     height: auto;
 }
 
-.c1 {
+.about_us {
     background-color: #990033;
     color: white;
     font-family: verdana;
@@ -16,12 +16,11 @@ body, html {
     text-align: center;
 }
 
-.c2 {
+.book_categories {
     background-color: #00ffff;
-
-    color:#006666;
+    color: #006666;
     text-align: center;
-    }
+}
 
 h1 {
     margin-top: 0;
@@ -36,27 +35,27 @@ h1 {
     margin: auto;
 }
 
-  .icons{
-    display:inline-block;
-    margin-left:10px;
-  }
-   .caption{
+.icons {
+    display: inline-block;
+    margin-left: 10px;
+}
 
-     display: block;
-     font-size: 15px;
+.caption {
+    display: block;
+    font-size: 15px;
     font-family: verdana;
     text-align: center;
-    font-variant:small-caps;
-    font-weight:bolder;
+    font-variant: small-caps;
+    font-weight: bolder;
     color: #006666
-   }
+}
 
-    .img_c2 {
-      border-radius: 10px;
-      border: 10px solid #ddd;
-      padding: 5px;
-      width: 100px;
-      height: 150px;
+.img_c2 {
+    border-radius: 10px;
+    border: 10px solid #ddd;
+    padding: 5px;
+    width: 100px;
+    height: 150px;
 }
 
 .caption2 {
@@ -69,12 +68,12 @@ h1 {
     color: white;
 }
 
+.img_c2:hover {
+    border-color: #006666;
+    cursor: pointer;
+}
 
-   .img_c2:hover{
-     border-color:#006666;
-     cursor: pointer;
-   }
-.c3 {
+.our_squad {
     font-family: verdana;
     overflow: hidden;
     background-color: #0040ff;
@@ -82,32 +81,35 @@ h1 {
     text-align: center;
 }
 
-.c4 {
+.experience {
     background-color: white;
     text-align: center;
     color: #003366;
 }
 
-.prog_bars{
-  height:150px;
-}
-#prog_bar1{
-  width:100px;
-  height:100px;
-  margin-left: 30px;
-}
-#prog_bar2{
-  width:100px;
-  height:100px;
-  margin-left: 30px;
-}
-#prog_bar3{
-  width:100px;
-  height:100px;
-  margin-left: 30px;
+.prog_bars {
+    height: auto;
 }
 
-.c5 {
+#prog_bar1 {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+#prog_bar2 {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+#prog_bar3 {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.production {
     font-family: verdana;
     font-style: bold;
     overflow: hidden;
@@ -133,10 +135,10 @@ footer {
     background-color: #0000cc;
 }
 
-nav{
- font-size: 10px;
- background-color: #990033;
-overflow: hidden;
+nav {
+    font-size: 10px;
+    background-color: #990033;
+    overflow: hidden;
 }
 
 header nav ul li {
@@ -151,13 +153,14 @@ header nav ul li {
     float: right;
 }
 
-
 header nav ul {
     float: right;
 }
+
 .line:hover {
     background-color: #990080
 }
+
 .b1 {
     text-align: center;
     max-width: 20%;
@@ -170,40 +173,49 @@ header nav ul {
     margin-bottom: 50px;
     text-decoration: none;
 }
+
 .b1:hover {
     background-color: #6c6c93;
 }
+
 .comms {
     height: 100px;
     width: 70px;
 }
+
 .prod {
     height: 100px;
     width: 100px;
 }
+
 .ceo {
     height: 100px;
     width: 100px;
 }
+
 .squad {
     display: inline-block;
     text-align: center;
     margin: 30px;
     padding: 20px;
 }
+
 body {
     font-family: 'Trebuchet MS', serif;
     line-height: 1.6
 }
+
 .container {
-    width: 800px;
-    margin: 0 auto;
+    width: 100%;
+    margin:auto auto;
 }
+
 ul.tabs {
     margin: 0px;
     padding: 0px;
     list-style: none;
 }
+
 ul.tabs li {
     background: none;
     color: #222;
@@ -211,29 +223,33 @@ ul.tabs li {
     padding: 10px 15px;
     cursor: pointer;
 }
+
 ul.tabs li.current {
     background: #ededed;
     color: #222;
 }
+
 .tab-content {
     display: none;
     background: #ededed;
     padding: 15px;
     height: 500px;
 }
+
 .tab-content.current {
     display: inherit;
 }
+
 .container {
     padding: 20px;
 }
-p{
-  margin-bottom: 0;
+
+p {
+    margin-bottom: 0;
 }
-.bookTabs{
-  height: 400px;
-  width: auto;
-}
+
+
+
 footer ul li {
     list-style-type: none;
     border: none;
@@ -243,5 +259,37 @@ footer ul li {
     color: white;
     font-family: verdana;
     border-radius: 10px;
+}
+
+ul.tabs li:hover {
+    background-color: #ededed;
+}
+.bookTabs{
+  max-width: 350px;
+  height: auto;
+}
+@media only screen and (max-width: 480px) {
+    .caption {
+        font-size: 20px;
+    }
+    .caption2 {
+        font-size: 20px;}
+        p {
+            font-size: 20px;
+
+        }
 
   }
+    @media only screen and (max-width: 480px) {
+
+        }
+      }
+        @media only screen and (max-width: 480px) {
+            p {
+                font-size: 20px;
+            }
+        }
+
+            }
+        }
+    }
