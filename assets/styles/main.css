@@ -17,14 +17,14 @@
 }
 
 .book_categories {
-    background-color: #00ffff;
+    background-color: #ccccff;
     color: #006666;
     text-align: center;
 }
 
 h1 {
     margin-top: 0;
-    color: #003300;
+    color: #006666;
     font-family: verdana;
     font-size: 20px;
     text-align: center;
@@ -88,7 +88,8 @@ h1 {
 }
 
 .prog_bars {
-    height: auto;
+    height: 150px;
+    margin-top: 15px;
 }
 
 #prog_bar1 {
@@ -117,13 +118,6 @@ h1 {
     background-color: #ffcc66;
 }
 
-.c6 {
-    background-color: #ff0066;
-}
-
-.c7 {
-    background-color: #3366ff;
-}
 
 nav img {
     width: 120px;
@@ -131,9 +125,7 @@ nav img {
     float: left;
 }
 
-footer {
-    background-color: #0000cc;
-}
+
 
 nav {
     font-size: 10px;
@@ -206,7 +198,7 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 80%;
     margin:auto auto;
 }
 
@@ -256,16 +248,30 @@ footer ul li {
     padding: 15px;
     display: inline-block;
     left: 100px;
-    color: white;
     font-family: verdana;
     border-radius: 10px;
+}
+footer {
+  position: fixed;
+  align-content: center;
+  bottom: 0;
+  width: 100%;auto;
+    background-color: #005580;
+    color: #b3daff;
+    text-align: center;
+}
+
+.line2:hover{
+  background-color: #990080;
+  cursor: pointer;
 }
 
 ul.tabs li:hover {
     background-color: #ededed;
 }
 .bookTabs{
-  max-width: 350px;
+  width: auto;
+  max-width: 50%;
   height: auto;
 }
 @media only screen and (max-width: 480px) {
