@@ -11,7 +11,7 @@
 .about_us {
     background-color: #990033;
     color: white;
-    font-family: verdana;
+    font-family: verdana, sans-serif;
     font-size: 20px;
     text-align: center;
 }
@@ -20,14 +20,16 @@
     background-color: #ccccff;
     color: #006666;
     text-align: center;
+        font-family: verdana, sans-serif;
 }
 
 h1 {
     margin-top: 0;
     color: #006666;
-    font-family: verdana;
+    font-family: verdana, sans-serif;
     font-size: 20px;
     text-align: center;
+
 }
 
 .categories_img {
@@ -38,12 +40,13 @@ h1 {
 .icons {
     display: inline-block;
     margin-left: 10px;
+        font-family: verdana, sans-serif;
 }
 
 .caption {
     display: block;
     font-size: 15px;
-    font-family: verdana;
+    font-family: verdana, sans-serif;
     text-align: center;
     font-variant: small-caps;
     font-weight: bolder;
@@ -61,7 +64,7 @@ h1 {
 .caption2 {
     display: block;
     font-size: 15px;
-    font-family: verdana;
+    font-family: verdana, sans-serif;
     text-align: center;
     font-variant: small-caps;
     font-weight: bolder;
@@ -74,7 +77,7 @@ h1 {
 }
 
 .our_squad {
-    font-family: verdana;
+    font-family: verdana, sans-serif;
     overflow: hidden;
     background-color: #0040ff;
     color: white;
@@ -85,10 +88,11 @@ h1 {
     background-color: white;
     text-align: center;
     color: #003366;
+        font-family: verdana, sans-serif;
 }
 
 .prog_bars {
-    height: 150px;
+
     margin-top: 15px;
 }
 
@@ -111,7 +115,7 @@ h1 {
 }
 
 .production {
-    font-family: verdana;
+    font-family: verdana, sans-serif;
     font-style: bold;
     overflow: hidden;
     text-align: center;
@@ -131,6 +135,10 @@ nav {
     font-size: 10px;
     background-color: #990033;
     overflow: hidden;
+        font-family: verdana, sans-serif;
+}
+header{
+      font-family: verdana, sans-serif;
 }
 
 header nav ul li {
@@ -140,17 +148,20 @@ header nav ul li {
     display: inline-block;
     left: 100px;
     color: white;
-    font-family: verdana;
+    font-family: verdana, sans-serif;
     border-radius: 10px;
     float: right;
 }
 
 header nav ul {
     float: right;
+        font-family: verdana, sans-serif;
 }
 
 .line:hover {
-    background-color: #990080
+    background-color: #990080;
+    cursor: pointer;
+        font-family: verdana, sans-serif;
 }
 
 .b1 {
@@ -164,6 +175,7 @@ header nav ul {
     font-size: 15px;
     margin-bottom: 50px;
     text-decoration: none;
+        font-family: verdana, sans-serif;
 }
 
 .b1:hover {
@@ -173,16 +185,19 @@ header nav ul {
 .comms {
     height: 100px;
     width: 70px;
+        font-family: verdana, sans-serif;
 }
 
 .prod {
     height: 100px;
     width: 100px;
+        font-family: verdana, sans-serif;
 }
 
 .ceo {
     height: 100px;
     width: 100px;
+        font-family: verdana, sans-serif;
 }
 
 .squad {
@@ -190,22 +205,25 @@ header nav ul {
     text-align: center;
     margin: 30px;
     padding: 20px;
+        font-family: verdana, sans-serif;
 }
 
 body {
-    font-family: 'Trebuchet MS', serif;
+    font-family: verdana, sans-serif;
     line-height: 1.6
 }
 
 .container {
     width: 80%;
     margin:auto auto;
+        font-family: verdana, sans-serif;
 }
 
 ul.tabs {
     margin: 0px;
     padding: 0px;
     list-style: none;
+        font-family: verdana, sans-serif;
 }
 
 ul.tabs li {
@@ -214,11 +232,13 @@ ul.tabs li {
     display: inline-block;
     padding: 10px 15px;
     cursor: pointer;
+        font-family: verdana, sans-serif;
 }
 
 ul.tabs li.current {
     background: #ededed;
     color: #222;
+        font-family: verdana, sans-serif;
 }
 
 .tab-content {
@@ -226,18 +246,22 @@ ul.tabs li.current {
     background: #ededed;
     padding: 15px;
     height: 500px;
+        font-family: verdana, sans-serif;
 }
 
 .tab-content.current {
     display: inherit;
+        font-family: verdana, sans-serif;
 }
 
 .container {
     padding: 20px;
+        font-family: verdana, sans-serif;
 }
 
 p {
     margin-bottom: 0;
+        font-family: verdana, sans-serif;
 }
 
 
@@ -248,7 +272,7 @@ footer ul li {
     padding: 15px;
     display: inline-block;
     left: 100px;
-    font-family: verdana;
+    font-family: verdana, sans-serif;
     border-radius: 10px;
 }
 footer {
@@ -259,6 +283,7 @@ footer {
     background-color: #005580;
     color: #b3daff;
     text-align: center;
+        font-family: verdana, sans-serif;
 }
 
 .line2:hover{
@@ -274,6 +299,7 @@ ul.tabs li:hover {
   width: auto;
   max-width: 50%;
   height: auto;
+      font-family: verdana, sans-serif;
 }
 @media only screen and (max-width: 480px) {
     .caption {
